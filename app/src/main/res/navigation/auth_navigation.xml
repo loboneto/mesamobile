@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_navigation"
+    app:startDestination="@id/navigation_sign_in">
+
+    <fragment
+        android:id="@+id/navigation_sign_in"
+        android:name="br.com.loboneto.mesamobile.ui.auth.signin.SignInFragment"
+        android:label="@string/title_sign_in"
+        tools:layout="@layout/fragment_sign_in">
+
+        <action
+            app:destination="@id/navigation_sign_up"
+            android:id="@+id/action_sign_up"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_sign_up"
+        android:name="br.com.loboneto.mesamobile.ui.auth.signup.SignUpFragment"
+        android:label="@string/title_sign_up"
+        tools:layout="@layout/fragment_sign_up" />
+
+</navigation>

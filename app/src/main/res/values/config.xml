@@ -1,0 +1,12 @@
+<resources>
+    <color name="backgroundColor">@color/greyLight</color>
+    <color name="surfaceColor">@color/white</color>
+
+    <color name="status_bar_color">@color/black</color>
+    <color name="action_bar_color">@color/black</color>
+    <color name="action_bar_title_color">@color/white</color>
+
+    <dimen name="card_elevation">0dp</dimen>
+    <dimen name="card_stroke_width">1dp</dimen>
+
+</resources>

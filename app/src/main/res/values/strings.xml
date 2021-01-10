@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MesaMobile</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_sign_in">Entrar</string>
+    <string name="title_sign_up">Cadastrar</string>
+    <string name="title_news">Notícias</string>
+    <string name="title_favorites">Favoritos</string>
+    <string name="title_profile">Perfil</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="user_name">Nome</string>
+    <string name="user_email">E-mail</string>
+    <string name="user_password">Senha</string>
+    <string name="user_confirm_password">Confirmar senha</string>
+    <string name="news_title">Título</string>
+    <string name="news_description">Descrição</string>
+    <string name="news_author">Autor</string>
+    <string name="news_date">Publicado em</string>
+    <string name="filtrate_news">Filtrar notícias</string>
+    <string name="filtrate">Filtrar</string>
+    <string name="clear">Limpar</string>
+    <string name="published_at">Data de publicação</string>
+    <string name="default_date_format">01/01/2021</string>
+</resources>
